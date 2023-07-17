@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main_box{
+    background: url("wooden-boards-with-blurred-clothes-store.jpg");
+    height: 100vh; 
+    background-size: cover;
+}
+.main_box .upper_bars{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: ysabeau SC;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: rgba(10, 7, 1, 0.671);
+    font-size: 20px;
+    font-weight: 700;
+
+}
+.logo {
+    height: 300px;
+    display: flex;
+    justify-content: center; 
+    align-items: flex-end;
+}
+
+.logo .stepin {
+    font-weight:bolder;
+    font-size: 120px;
+    font-family: ysabeau SC;
+    color:rgb(81, 61, 12);
+}
+.intro{
+    height:70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.intro .para{
+    font-family: ysabeau SC;
+    font-size: 20px;
+    font-weight: 500;
+}
+.search_bar {
+    height:50px;
+    display: flex;
+    justify-content: center;
+    
+}
+#search{
+    width: 500px;
+    height: 50px;
+    border: 10px solid rbg(81,61,12);
+    background-color: rgba(33, 28, 28, 0.532);
+    color:white;
+    font-family: ysabeau SC;
+    font-size: 15px;
+}
+.social_media{
+    position:absolute;
+    right: 3%;
+    bottom:20px;
+}
+.social_media i{
+    color: black;
+    opacity: 0.7;
+    padding: 0 5px;
+    font-size: 20px;
+}
+ .social_media i:hover{
+    font-size: 25px;
+    color:black;
+    transition: all 0.1s linear;
+}
+.upper_bars .a:hover{
+    font-size: 23px;
+    transition: all 0.2s linear;
+    color: rgba(99, 52, 3, 0.792);
+
+}
